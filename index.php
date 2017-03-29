@@ -1,6 +1,6 @@
 <?php
     $page = (isset($_GET['page']) ? $_GET['page'] : 'index');
-    // je créé un varaible $page qui à chaque fois que je clique sur une page, si elle qui existe, renvoie la page sinon je renvoie INDEX
+    // je créé un variable $page qui à chaque fois que je clique sur une page, si elle qui existe, renvoie la page sinon je renvoie INDEX
     // ainsi, je peux faire un switch qui renvoie le bon titre de page
 
     $file = $page . '.php';
@@ -25,6 +25,9 @@
             switch($page){
                 case 'index':
                     echo 'Home page';
+                    break;
+                case 'list':
+                    echo 'liste';
                     break;
                 case 'contact':
                     echo 'Contactez-nous';

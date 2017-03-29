@@ -1,5 +1,5 @@
 <?php
-
+/* MAINTENANT, ON UTILISE src/index.php pour afficher les résultats "ADDED PROFILE" de ce que nous avons etré dans la BDD
 if ($_SERVER['REQUEST_METHOD'] == 'POST'):
 
     print_r('<pre>');
@@ -7,10 +7,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'):
     print_r('</pre>');
 
 else:
-?> <!--si la methode de requete serveur est le parametre POST alors renvoie la valeur de la variable $_POST -->
-
-
-
+*/
+?> <!--si la methode de requete serveur est le parametre POST alors renvoie la valeur de la variable $_POST à l'écran -->
 
 <div class="row">
     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
@@ -37,4 +35,5 @@ else:
     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
 </div>
 
-<?php endif ?>
+<?php /*endif*/ ?>
+
